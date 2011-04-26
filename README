@@ -1,0 +1,9 @@
+This script will auto-archive email you have sitting on an IMAP4 server.  By default it's set for anything older than 30 days will go into a newly named folder with those messages.
+
+Requires the following perl libraries:
+* Net-Imap-Simple
+
+1) Edit the script for your username/password/hostname/etc.
+2) Cron it up.
+
+Are there other/better/different ways to do this?  Yes.  But that's the case with most things.  I made it and it's handy for me.
